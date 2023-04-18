@@ -1,7 +1,7 @@
 {
   "name": "barebonechat",
   "version": "1.0.0",
-  "description": "It's a barebone chat app used as an example in a course on realtime web apps.",
+  "description": "Het is een chat applicatie die werkt met socket.io en express.",
   "type": "commonjs",
   "main": "server.js",
   "scripts": {
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ju5tu5/barebonechat.git"
+    "url": "git+https://github.com/jessedegroothva/real-time-web-2223"
   },
   "keywords": [
     "express",
     "socket.io"
   ],
-  "author": "Justus Sturkenboom <justus@ju5tu5.nl>",
+  "author": "Jesse de Groot <jesse.de.groot4@hva.nl>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ju5tu5/barebonechat/issues"
+    "url": "https://github.com/jessedegroothva/issues"
   },
-  "homepage": "https://github.com/ju5tu5/barebonechat#readme",
+  "homepage": "https://github.com/jessedegroothva/real-time-web-2223#readme",
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^4.0.0"
