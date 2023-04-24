@@ -2,11 +2,11 @@
 It's a barebone chat app used as an example in a course on realtime web apps.
 
 **Dinsdag 18/4**
-Ik heb de repo van Justus Sturkenboom gecloned en de stijling aangepast naar een thema gebasseerd op het Rijksmuseum.
+Ik heb in de groepsopdracht geleerd hoe een groepschat gemaakt wordt. Om het helemaal zelf te doen was nog iets te uitdagend voor mij, dus heb ik de repo van Justus Sturkenboom gecloned alle code goed geleerd. Pas toen ik de code snapte heb ik de stijling aangepast naar een thema gebasseerd op het Rijksmuseum.
 Vervolgens heb ik de chat gestijld gebasseerd op de stijl van het Rijksmuseum:
 ![image](https://user-images.githubusercontent.com/90199203/232750542-dbee719d-30ca-4a33-91d5-05a03dbd8fe4.png)
 
-Ik heb voorbamelijk de code geleerd. Ik snap nu het concept en weet de basis voor het eindproject.
+Ik heb voornamelijk de code geleerd. Ik snap nu het concept en weet de basis voor het eindproject.
 
 Ik moet 3 concepten bedenken voor vrijdag
 
