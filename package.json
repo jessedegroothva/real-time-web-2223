@@ -5,7 +5,7 @@
   "type": "commonjs",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/jessedegroothva/real-time-web-2223#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.22",
     "socket.io": "^4.0.0"
   }
 }

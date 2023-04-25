@@ -18,23 +18,21 @@ let history = [];
 // Serveer client-side bestanden
 app.use(express.static(path.resolve("public")));
 
-io.on("connection", (socket) => {
-  console.log("a user connected");
-  io.emit("history", history);
+io.use((socket, next) => {
+  const nickname = socket.handshake.auth.user;
+  if (!nickname) {
+    return next(new Error("invalid nickname"));
+  }
+  socket.nickname = nickname;
+  next();
+});
 
-  socket.on("message", (message) => {
-    while (history.length > historySize) {
-      history.shift();
-    }
-    history.push(message);
+//______ SOCKET ______//
+//___ CONNECTION ___//
+io.on("connection", async (socket) => {
+  console.log("a user connected", socket.nickname);
 
-    console.log("Message:", message);
-    io.emit("message", message);
-  });
-
-  socket.on("disconnect", () => {
-    console.log("user disconnected");
-  });
+  io.emit("userConnected", socket.nickname);
 });
 
 function callApi(io) {

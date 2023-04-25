@@ -14,18 +14,28 @@
   </head>
 
   <body>
-    <main>
-      <section>
-        <h1>Raad de schilder</h1>
-        <ul></ul>
-        <form>
-          <input type="text" autocomplete="off" />
-          <button><span>Send</span></button>
+    <main id="game">
+      <section class="input">
+        <div>
+          <h1>Chat</h1>
+        </div>
+        <ul id="messages"></ul>
+        <form id="chatForm">
+          <input id="userName" type="text" placeholder="Username" />
+          <button type="submit" id="submitButton">Verstuur</button>
         </form>
       </section>
     </main>
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="/script.js"></script>
+    <script>
+      const submitButton = document.querySelector("#submitButton");
+      submitButton.addEventListener("click", (event) => {
+        const userName = document.querySelector("#userName").value;
+        const url = `http://localhost:4242/theGame.html?user=${userName}`;
+        window.location.replace(url);
+      });
+    </script>
   </body>
 </html>

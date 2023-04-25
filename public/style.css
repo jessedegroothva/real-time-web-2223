@@ -20,7 +20,7 @@ main {
   align-items: center;
 }
 
-section {
+.speldesign {
   width: 20rem;
   height: 30rem;
   /* background: rgb(239, 238, 238); */
@@ -33,7 +33,7 @@ section {
   align-items: center;
 }
 
-section h1 {
+.speldesign h1 {
   margin: 0;
   padding: 0;
   padding-top: 1rem;
@@ -43,7 +43,7 @@ section h1 {
   color: #827155;
 }
 
-section ul {
+.speldesign ul {
   margin: 0;
   padding: 0.2em;
   list-style-type: none;
@@ -55,7 +55,14 @@ section ul {
   background: transparent;
 }
 
-section ul > li {
+#painting-image {
+  max-width: 105%;
+  height: auto;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.speldesign ul > li {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -69,7 +76,7 @@ section ul > li {
   border-radius: 0.5em 0.5em 0.5em 0em;
 }
 
-section form {
+.speldesign form {
   margin: 0 0 1rem 0;
   padding: 0;
   width: 18rem;
@@ -77,7 +84,7 @@ section form {
   display: flex;
 }
 
-section form input[type="text"] {
+.speldesign form input[type="text"] {
   margin: 0;
   padding: 0 1rem;
   border: none;
@@ -91,7 +98,7 @@ section form input[type="text"] {
   outline: none;
 }
 
-section form > button {
+.speldesign form > button {
   padding: 0 0.6rem 0 0.4rem;
   width: 2rem;
   background: #fff;
@@ -103,20 +110,33 @@ section form > button {
   transition: 0.2s;
 }
 
-section form > button span {
+.speldesign form > button span {
   display: none;
 }
 
-section form > button::after {
+.speldesign form > button::after {
   content: "⇒";
   color: #1b0303;
 }
 
-section form > button:hover {
+.speldesign form > button:hover {
   padding-left: 1rem;
 }
 
-section form > button:active {
+.speldesign form > button:active {
   padding-left: 1rem;
   color: red;
+}
+
+.messages {
+  margin: 0;
+  padding: 0;
+  width: 18rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
 }
