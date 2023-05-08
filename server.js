@@ -27,8 +27,8 @@ io.use((socket, next) => {
   next();
 });
 
-//______ SOCKET ______//
-//___ CONNECTION ___//
+// SOCKET
+// CONNECTION
 io.on("connection", async (socket) => {
   console.log("a user connected", socket.nickname);
 
