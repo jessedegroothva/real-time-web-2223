@@ -44,7 +44,8 @@ function addMessage(message) {
 }
 
 // api connection
-const API_URL = "https://www.rijksmuseum.nl/api/nl/collection?key=9ZKSEiYs";
+const API_URL =
+  "https://www.rijksmuseum.nl/api/en/collection?key=9ZKSEiYs&involvedMaker=Johannes%20Vermeer";
 
 fetch(API_URL)
   .then((response) => response.json())
