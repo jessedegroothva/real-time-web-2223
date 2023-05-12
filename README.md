@@ -60,7 +60,7 @@ Als een user connect wordt dit serverside gelogd, ook wordt het laten zien in de
 Als er een bericht verstuurd wordt zie je dit bericht in de chat.
 
 **Disconnect**
-Als er een gebruiker disconnect wordt is dat te zien in de chat, ook wordt het serverside gelogd.
+Als iemand de juiste benaming van het schilderij in de chat plaatst, wordt het serverside gelogd en komt er een mooie groene achergrond als validatie dat iemand het goed heeft geraden.
 
 # Reflectie
 Ik vond het echt vet om met sockets te werken. Het is zo gaaf om te zien dat je live samen iets kunt doen op je pagina. Eerlijk gezegd had ik nog nooit met sockets gewerkt voor deze opdracht en eigenlijk ook nog nooit met code gewerkt voor deze minor, dus het was echt wel een uitdaging. In de eerste week was het vooral proberen om de chat aan de praat te krijgen en te snappen hoe het precies werkt. Toen het uiteindelijk lukte, voelde dat echt heerlijk. In de tweede week zat ik vast hoe ik het spel werkend zou krijgen. Ik zat er toen wel echt doorheen. Gelukkig kreeg ik hulp van mijn klasgenoten en hebben we het probleem in de volgende week opgelost. Ik begon steeds beter te begrijpen hoe de sockets werken en ik denk dat ik in de toekomst veel vette dingen kan maken als ik hier weer mee ga werken.
