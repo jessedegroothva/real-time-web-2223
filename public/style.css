@@ -20,6 +20,10 @@ main {
   align-items: center;
 }
 
+section {
+  margin: 3em;
+}
+
 .speldesign {
   width: 20rem;
   height: 30rem;
@@ -49,6 +53,7 @@ main {
   list-style-type: none;
   flex-grow: 2;
   width: 18em;
+  overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -56,10 +61,11 @@ main {
 }
 
 #painting-image {
-  max-width: 105%;
+  max-width: 100%;
   height: auto;
   border-radius: 2rem;
   overflow: hidden;
+  max-height: 100%;
 }
 
 .speldesign ul > li {

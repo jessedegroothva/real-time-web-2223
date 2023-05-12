@@ -17,8 +17,8 @@
     <main>
       <section class="speldesign">
         <h1>Raad de schilder</h1>
-        <ul></ul>
-        <form>
+        <ul id="messages"></ul>
+        <form id="message-form">
           <input type="text" autocomplete="off" />
           <button><span>Send</span></button>
         </form>
@@ -27,6 +27,9 @@
       <section class="speldesign">
         <img id="painting-image" />
       </section>
+      <ul id="user-list"></ul>
+
+      <button id="clear-button">Clear chat history</button>
     </main>
 
     <script src="/socket.io/socket.io.js"></script>
