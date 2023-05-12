@@ -32,7 +32,7 @@
       const submitButton = document.querySelector("#submitButton");
       submitButton.addEventListener("click", (event) => {
         const userName = document.querySelector("#userName").value;
-        const url = window.location.hostname + `/theGame.html?user=${userName}`;
+        const url = `/theGame.html?user=${userName}`;
         window.location.replace(url);
       });
     </script>
