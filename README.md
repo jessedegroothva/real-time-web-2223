@@ -40,14 +40,16 @@ De Rijks Data API is vrij te gebruiken en op https://data.rijksmuseum.nl/object-
 
 **API Response**
 ![image](https://user-images.githubusercontent.com/90199203/233979023-03573fe8-585b-477f-a853-72fc28897391.png)
-![image](https://user-images.githubusercontent.com/90199203/233978885-a52880c1-0dd3-43c3-b9ec-3453fe0bffce.png)
+
 Ik haal hier via de URL het id van het schilderij op.
 
-**Data Model API**
-[hier komt visualisatie]
+### **Data Model API**
+[2](https://github.com/jessedegroothva/real-time-web-2223/assets/90199203/96aa1ab6-2d47-464d-b44b-8567277bb309)
 
-**Data Lifecycle Diagram**
-[hier komt visualisatie]
+
+### **Data Lifecycle Diagram**
+![1](https://github.com/jessedegroothva/real-time-web-2223/assets/90199203/75db1f52-5f6e-49d7-a626-3242283f6bf5)
+
 
 # Real time events
 
