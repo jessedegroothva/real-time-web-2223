@@ -32,8 +32,8 @@
       const submitButton = document.querySelector("#submitButton");
       submitButton.addEventListener("click", (event) => {
         const userName = document.querySelector("#userName").value;
-        const url = `http://localhost:4242/theGame.html?user=${userName}`;
-        window.location.replace(url);
+        const url = `/theGame.html?user=${userName}`;
+        window.location.pathname(url);
       });
     </script>
   </body>
